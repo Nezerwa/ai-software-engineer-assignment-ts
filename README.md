@@ -32,6 +32,30 @@ Update this README to include:
 - how to run the tests locally,
 - how to build and run tests with Docker.
 
+## How to run the tests locally
+
+1. Install dependencies:
+   ```
+   npm install
+   ```
+2. Run the test suite:
+   ```
+   npm test
+   ```
+
+## How to build and run tests with Docker
+
+1. Build the Docker image:
+   ```
+   docker build -t ai-software-engineer-assignment-ts .
+   ```
+2. Run the tests in Docker:
+   ```
+   docker run --rm ai-software-engineer-assignment-ts
+   ```
+
+---
+
 ### 4) Find + fix a bug (required)
 
 There is a bug somewhere in this repository.

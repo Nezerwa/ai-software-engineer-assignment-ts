@@ -15,4 +15,4 @@ COPY tests ./tests
 RUN npm install
 
 # Default command: run tests
-CMD ["npm", "test"]
+CMD ["npm", "run", "test"]
